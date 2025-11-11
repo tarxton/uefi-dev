@@ -16,22 +16,6 @@ Our current implementation displays a simple message on screen when executed by 
 
 ---
 
-## Project Structure
-
-uefi-dev/
-├── src/
-│ └── main.c # UEFI app source code
-├── build/ # Build output (object, ELF, and EFI files)
-├── esp/
-│ └── EFI/
-│ └── BOOT/
-│ └── BOOTX64.EFI # Final bootable EFI application
-├── ovmf/ # OVMF flash device files
-├── Makefile
-└── README.md
-
----
-
 ## Notes
 
 - OVMF.fd is the open-source UEFI firmware used by QEMU.
